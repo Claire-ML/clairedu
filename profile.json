@@ -10,8 +10,8 @@
     "ko": "이민"
   },
   "intro": {
-    "en": "M.A. student in Youth Leadership and Education at Myongji University, Seoul. I study how young people learn, play and build their own culture.",
-    "ko": "명지대학교 대학원 청소년지도학과 석사과정에 재학 중입니다. 청소년이 어떻게 배우고, 놀고, 자신만의 문화를 만들어 가는지 연구합니다."
+    "en": "M.A. student in Youth Leadership and Education at Myongji University, Seoul. I research gender norms and masculinities within youth culture from an educational perspective.",
+    "ko": "명지대학교 대학원 청소년지도학과 석사과정에 재학 중입니다. 교육학적 관점에서 청소년의 문화와 젠더 규범을 연구합니다."
   },
   "affiliation": {
     "en": "M.A. student, Myongji University",
@@ -20,38 +20,38 @@
   "notes": {
     "research": {
       "text": {
-        "en": "First-author paper on \"hard fun\" in youth science activities",
-        "ko": "청소년 과학 체험활동의 ‘어려움의 재미’ 제1저자 논문"
+        "en": "Research Experience",
+        "ko": "연구 이력"
       },
       "foot": {
-        "en": "2026",
-        "ko": "2026"
+        "en": "Research History / Publications / Presentations",
+        "ko": "연구 프로젝트, 논문, 연구 경"
       }
     },
     "experience": {
       "text": {
-        "en": "Program coordinator & department assistant",
-        "ko": "사업 코디네이터 · 학과 조교"
+        "en": "Work Experience",
+        "ko": "실무 경력"
       },
       "foot": {
-        "en": "4 roles",
-        "ko": "4개 직무"
+        "en": "Professional Experience",
+        "ko": "근무 경력"
       }
     },
     "training": {
       "text": {
-        "en": "160 hrs field practicum!",
-        "ko": "현장실습 160시간!"
+        "en": "Field Experience",
+        "ko": "현장 경력"
       },
       "foot": {
-        "en": "2024",
-        "ko": "2024"
+        "en": "Practical Experience / Community Engagement",
+        "ko": "현장 경험 및 대외 활동"
       }
     },
     "education": {
       "text": {
         "en": "M.A., Youth Leadership and Education",
-        "ko": "청소년지도학 석사과정"
+        "ko": "청소년지도학 석사 과정"
       },
       "foot": {
         "en": "2025 – present",
@@ -60,58 +60,38 @@
     },
     "honors": {
       "text": {
-        "en": "Academic Excellence Award",
-        "ko": "성적우수상"
-      },
-      "foot": {
-        "en": "Sep 2025",
-        "ko": "2025.09"
+        "en": "Honors and Awards",
+        "ko": "수상 이력"
       }
     }
   },
   "leads": {
-    "research": {
-      "en": "Youth sexuality culture, comprehensive sexuality education, and constructionist learning.",
-      "ko": "청소년 성문화, 포괄적 성교육, 구성주의 학습을 연구합니다."
-    },
-    "experience": {
-      "en": "Program coordination and academic administration in youth and education settings.",
-      "ko": "청소년·교육 현장에서의 사업 운영과 학사 행정 경험입니다."
-    },
-    "training": {
-      "en": "Field practice in youth work, teaching areas and student leadership.",
-      "ko": "청소년 현장실습, 강의 분야, 학생 자치 활동입니다."
-    },
     "education": {
       "en": "Youth Leadership and Education at Myongji University, Seoul.",
       "ko": "명지대학교에서 청소년지도학을 공부하고 있습니다."
-    },
-    "honors": {
-      "en": "Awards and scholarships from Myongji University.",
-      "ko": "명지대학교에서 받은 상과 장학금입니다."
     }
   },
   "publications": [
     {
       "tag": {
-        "en": "JOURNAL ARTICLE · FIRST AUTHOR · 2026",
-        "ko": "학술지 논문 · 제1저자 · 2026"
+        "en": "Academic Journal · First Author · 2026",
+        "ko": "학술지 논문 · 저자 · 2026"
       },
       "title": {
-        "en": "The Educational Meaning of \"Hard Fun\" Experienced by Adolescents in Science and Technology Activities: Focusing on Seymour Papert's Constructionism",
+        "en": "Educational Significance of “Hard-Fun” in a Youth Science and Technology Program: A Papertian Constructionist Perspective",
         "ko": "과학기술 체험활동에서 청소년이 경험한 ‘어려움의 재미(hard-fun)’의 교육적 의미: 시모어 패퍼트의 구성주의를 중심으로"
       },
       "authors": {
-        "en": "Lee, M., Kim, M., & Yoon, H.",
+        "en": "Minn Lee, Mu-nyeon Kim and Hyongjoo Yoon",
         "ko": "이민, 김무년, 윤형주"
       },
       "me": {
-        "en": "Lee, M.",
+        "en": "Minn Lee",
         "ko": "이민"
       },
       "year": "2026",
       "journal": {
-        "en": "Journal of Future Youth Studies",
+        "en": "Future Oriented Youth Society",
         "ko": "미래청소년학회지"
       },
       "volume": "23(2)",
@@ -121,16 +101,24 @@
   "research": [
     {
       "period": {
-        "en": "Oct 2025",
-        "ko": "2025.10"
+        "en": "Feb 2026",
+        "ko": "2026.02"
       },
       "title": {
-        "en": "Research Assistant",
-        "ko": "연구과제 보조연구원"
+        "en": "Investigation, Analysis, and Basic Research on Cognitive and Psychological-Based HMI-BCI Technologies",
+        "ko": "인지·심리 기반 HMI-BCI기술 조사·분석 및 기초연구"
+      },
+      "org": {
+        "en": "Myongji University Industry-Academia Cooperation Foundation",
+        "ko": "명지대학교 산학협력단"
+      },
+      "status": {
+        "en": "Completed",
+        "ko": "진행 완료"
       },
       "description": {
-        "en": "Assisted on a funded research project.",
-        "ko": "연구과제 수행에 보조연구원으로 참여했습니다."
+        "en": "Research Assistant",
+        "ko": "연구과제 보조연구원"
       }
     },
     {
