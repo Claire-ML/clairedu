@@ -79,7 +79,7 @@ content:
                   - { name: en, label: English, type: string }
                   - { name: ko, label: 한국어, type: string }
           - name: training
-            label: 교육 노트 (하늘색, 손글씨)
+            label: 교육 노트 (하늘색)
             type: object
             fields:
               - name: text
