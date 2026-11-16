@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Minn Lee</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Caveat:wght@600&display=swap">
+<style>
+/* Layout: plain white product-page — slim nav, big headline left, ruled menu list left, a loose cluster of sticky notes right */
+:root {
+  --bg: #ffffff;
+  --ink: #111111;
+  --muted: #6b6b6b;
+  --line: #d9d9d9;
+  /* Note colors taken from the "Maybe Happy Ending" poster: blush pink, navy line-art, pale blue, butter, white */
+  --n-pink: #f6c6c4;
+  --n-navy: #2d3a6b;
+  --n-blue: #cfdcef;
+  --n-butter: #f6e3b4;
+  --n-white: #fdf7f5;
+  --n-ink: #1f2747;
+  --f-body: "Inter", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --f-hand: "Caveat", "Comic Sans MS", cursive;
+}
+/* Single light look by request: always a white page */
+:root { color-scheme: light; }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.6; }
+a { color: inherit; }
+button { font: inherit; color: inherit; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--n-navy); outline-offset: 3px; border-radius: 4px; }
+
+.gutter {
+  padding-left: max(32px, env(safe-area-inset-left, 0px));
+  padding-right: max(32px, env(safe-area-inset-right, 0px));
+}
+.container { max-width: 1200px; margin: 0 auto; }
+
+/* Nav */
+.nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 16px; }
+.nav-left { display: flex; align-items: center; gap: 28px; }
+.logo { display: flex; align-items: center; gap: 10px; font-weight: 600; text-decoration: none; font-size: 15px; }
+.logo i { width: 22px; height: 22px; display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+.logo i span { border-radius: 50% 50% 50% 0; }
+.logo i span:nth-child(1) { background: var(--n-pink); }
+.logo i span:nth-child(2) { background: var(--n-navy); border-radius: 50%; }
+.logo i span:nth-child(3) { background: var(--n-blue); }
+.logo i span:nth-child(4) { background: var(--n-butter); border-radius: 0 50% 50% 50%; }
+.links { display: flex; gap: 22px; font-size: 13.5px; }
+.links button { background: none; border: 0; padding: 0; }
+.links button:hover { text-decoration: underline; text-underline-offset: 3px; }
+.nav-right { display: flex; gap: 8px; align-items: center; }
+.btn {
+  display: inline-flex; align-items: center; gap: 8px; border-radius: 8px; padding: 8px 14px;
+  font-size: 13.5px; font-weight: 500; text-decoration: none; border: 1px solid var(--ink); background: none;
+}
+.btn.solid { background: var(--ink); color: var(--bg); }
+.btn svg { width: 14px; height: 14px; fill: currentColor; }
+
+/* Home */
+.hero-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 56px; align-items: center; padding-block: 72px 8px; }
+.hero { display: grid; gap: 18px; max-width: 640px; }
+.portrait { position: relative; width: 196px; margin-right: 24px; }
+.portrait::before {
+  content: ""; position: absolute; inset: 14px -16px -14px 16px; background: var(--n-pink); transform: rotate(3deg);
+}
+.portrait img {
+  position: relative; display: block; width: 100%; height: auto; max-width: 100%; aspect-ratio: 3 / 4; object-fit: cover;
+  background: #f2f2f2; box-shadow: 0 1px 2px rgba(0,0,0,.08), 0 14px 30px -18px rgba(0,0,0,.4);
+}
+.portrait .tagc { left: -14px; bottom: 26px; background: var(--n-navy); }
+.portrait .tagc::before { border-bottom-color: var(--n-navy); }
+.hero h1 { margin: 0; font-size: clamp(40px, 4.6vw, 60px); font-weight: 500; letter-spacing: -.03em; line-height: 1.05; }
+.hero p { margin: 0; font-size: 17px; line-height: 1.55; }
+.hero .cta { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
+.hero .cta .btn { padding: 11px 18px; font-size: 14.5px; }
+
+.stage { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 48px; padding-block: 48px 96px; align-items: start; }
+
+.menu { display: grid; }
+.menu button {
+  background: none; border: 0; border-bottom: 1px solid var(--line); text-align: left;
+  padding: 11px 0; font-size: 15px; font-weight: 500; display: flex; align-items: center; gap: 10px;
+}
+.menu button .dot { width: 14px; height: 14px; border-radius: 4px; flex: none; border: 1px solid rgba(0,0,0,.08); }
+.menu button:hover, .menu button.on { font-weight: 600; }
+.menu button.on { border-bottom-color: var(--ink); }
+.menu-note { margin: 18px 0 0; color: var(--muted); font-size: 13.5px; }
+
+.board { position: relative; min-height: 440px; }
+.note {
+  position: absolute; width: 190px; aspect-ratio: 1; padding: 16px; border: 0; text-align: left;
+  display: flex; flex-direction: column; justify-content: space-between; color: var(--n-ink);
+  box-shadow: 0 1px 2px rgba(0,0,0,.08), 0 10px 24px -14px rgba(0,0,0,.35);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.note .cap { font-size: 11.5px; font-weight: 500; opacity: .75; }
+.note .big { font-size: 17px; font-weight: 600; line-height: 1.3; }
+.note .hand { font-family: var(--f-hand); font-size: 30px; line-height: 1; }
+.note .foot { font-size: 11.5px; opacity: .7; display: flex; justify-content: space-between; }
+.note:hover, .note.lift { transform: translateY(-6px) rotate(0deg) !important; box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 22px 36px -16px rgba(0,0,0,.4); z-index: 5; }
+.n1 { background: var(--n-pink); left: 4%; top: 120px; transform: rotate(-3deg); }
+.n2 { background: var(--n-navy); color: #fff; left: 30%; top: 20px; transform: rotate(2deg); }
+.n3 { background: var(--n-blue); left: 56%; top: 130px; transform: rotate(-1.5deg); }
+.n4 { background: var(--n-butter); left: 26%; top: 240px; transform: rotate(3deg); }
+.n5 { background: var(--n-white); left: 72%; top: 10px; transform: rotate(4deg); outline: 1px solid #e7d6d3; }
+.tagc {
+  position: absolute; font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 4px; color: #fff; white-space: nowrap;
+}
+.tagc::before {
+  content: ""; position: absolute; left: -10px; top: -10px; width: 0; height: 0;
+  border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 11px solid currentColor;
+  transform: rotate(-35deg);
+}
+.tag-a { background: #d9837f; color: #fff; left: calc(4% + 150px); top: 104px; }
+.tag-a::before { border-bottom-color: #d9837f; }
+.tag-b { background: var(--n-navy); left: calc(56% + 160px); top: 300px; }
+.tag-b::before { border-bottom-color: var(--n-navy); }
+
+/* Detail */
+.detail { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 48px; padding-block: 56px 96px; align-items: start; }
+.detail aside { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 24px); }
+.back { background: none; border: 0; padding: 0; color: var(--muted); font-size: 13.5px; margin-bottom: 24px; }
+.back:hover { color: var(--ink); }
+.who { margin-bottom: 20px; }
+.who b { display: block; font-size: 24px; font-weight: 500; letter-spacing: -.02em; }
+.who span { color: var(--muted); font-size: 13.5px; }
+
+.panel { display: grid; gap: 8px; min-width: 0; }
+.panel h2 { margin: 0 0 8px; font-size: 40px; font-weight: 500; letter-spacing: -.03em; line-height: 1.1; }
+.panel .lead { margin: 0 0 16px; color: var(--muted); font-size: 16px; }
+
+.paper { background: var(--n-pink); color: var(--n-ink); padding: 24px; border-radius: 4px; display: grid; gap: 8px; margin-bottom: 8px; }
+.paper .meta { font-size: 12px; font-weight: 600; letter-spacing: .02em; }
+.paper h3 { margin: 0; font-size: 19px; font-weight: 600; line-height: 1.4; }
+.paper p { margin: 0; font-size: 13.5px; }
+.paper .ko { opacity: .75; font-size: 13px; }
+
+.item { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 24px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.item:last-child { border-bottom: 0; }
+.when { color: var(--muted); font-size: 13.5px; font-variant-numeric: tabular-nums; }
+.what { display: grid; gap: 2px; min-width: 0; }
+.what h3 { margin: 0; font-size: 16.5px; font-weight: 600; }
+.what .org { font-size: 14.5px; }
+.what p, .what ul { margin: 2px 0 0; color: var(--muted); font-size: 14.5px; }
+.what ul { padding-left: 18px; }
+.chip { display: inline-block; font-size: 11px; font-weight: 600; padding: 1px 8px; border-radius: 999px; background: var(--n-blue); color: var(--n-ink); margin-left: 8px; vertical-align: 2px; }
+
+footer { color: var(--muted); font-size: 12.5px; padding-block: 24px 32px; border-top: 1px solid var(--line); }
+
+@media (max-width: 900px) {
+  .links { display: none; }
+  .stage, .detail { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  .detail aside { position: static; }
+  .hero-row { grid-template-columns: minmax(0, 1fr); gap: 40px; padding-block: 40px 8px; }
+  .portrait { width: min(170px, 60%); order: -1; }
+}
+@media (max-width: 1140px) {
+  .board { min-height: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
+  .note { position: static; width: auto; transform: none !important; }
+  .note:hover { transform: translateY(-4px) !important; }
+  .tagc { display: none; }
+}
+@media (max-width: 560px) {
+  .gutter { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .nav-right .btn:not(.solid) { display: none; }
+  .item { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .panel h2 { font-size: 32px; }
+}
+@media (prefers-reduced-motion: reduce) { .note { transition: none; } }
+</style>
+</head>
+<body>
+<header class="gutter">
+  <div class="container nav">
+    <div class="nav-left">
+      <a class="logo" href="#home"><i><span></span><span></span><span></span><span></span></i>Minn Lee</a>
+      <nav class="links" aria-label="Sections">
+        <button type="button" data-go="research">Research</button>
+        <button type="button" data-go="experience">Experience</button>
+        <button type="button" data-go="training">Training</button>
+        <button type="button" data-go="education">Education</button>
+        <button type="button" data-go="honors">Honors</button>
+      </nav>
+    </div>
+    <div class="nav-right">
+      <button class="btn" type="button" data-go="research">View CV</button>
+      <a class="btn solid" href="https://www.linkedin.com/in/minn-lee-a57447400" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</header>
+
+<!-- HOME -->
+<main id="view-home" class="gutter">
+  <div class="container">
+    <div class="hero-row">
+    <section class="hero">
+      <h1>Hi, I'm Minn Lee.</h1>
+      <p>M.A. student in Youth Leadership and Education at Myongji University, Seoul. I study how young people learn, play and build their own culture.</p>
+      <div class="cta">
+        <a class="btn solid" href="https://www.linkedin.com/in/minn-lee-a57447400" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11H3v-11zm6.5 0h3.8v1.5h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1v5.46h-4v-4.84c0-1.16-.02-2.64-1.61-2.64-1.61 0-1.86 1.26-1.86 2.56v4.92h-4v-11z"/></svg>
+          Connect on LinkedIn
+        </a>
+        <button class="btn" type="button" data-go="research">See my full profile →</button>
+      </div>
+    </section>
+    <figure class="portrait" style="margin-top:0;margin-bottom:0;margin-left:0">
+      <img src="minn.jpg" alt="Portrait of Minn Lee" width="354" height="472">
+      <span class="tagc" aria-hidden="true">Minn Lee</span>
+    </figure>
+    </div>
+
+    <section class="stage">
+      <div>
+        <div class="menu" id="homeMenu">
+          <button type="button" data-go="research" data-n="n1"><span class="dot" style="background:var(--n-pink)"></span>Research</button>
+          <button type="button" data-go="experience" data-n="n2"><span class="dot" style="background:var(--n-navy)"></span>Work experience</button>
+          <button type="button" data-go="training" data-n="n3"><span class="dot" style="background:var(--n-blue)"></span>Training &amp; activities</button>
+          <button type="button" data-go="education" data-n="n4"><span class="dot" style="background:var(--n-butter)"></span>Education</button>
+          <button type="button" data-go="honors" data-n="n5"><span class="dot" style="background:var(--n-white)"></span>Honors &amp; scholarships</button>
+        </div>
+        <p class="menu-note">Pick a section or a note to open the details.</p>
+      </div>
+
+      <div class="board">
+        <button class="note n1" type="button" data-go="research" id="n1">
+          <span class="cap">Research</span>
+          <span class="big">First-author paper on "hard fun" in youth science activities</span>
+          <span class="foot"><span>2026</span><span>→</span></span>
+        </button>
+        <button class="note n2" type="button" data-go="experience" id="n2">
+          <span class="cap">Work experience</span>
+          <span class="big">Program coordinator &amp; department assistant</span>
+          <span class="foot"><span>4 roles</span><span>→</span></span>
+        </button>
+        <button class="note n3" type="button" data-go="training" id="n3">
+          <span class="cap">Training</span>
+          <span class="hand">160 hrs field practicum!</span>
+          <span class="foot"><span>2024</span><span>→</span></span>
+        </button>
+        <button class="note n4" type="button" data-go="education" id="n4">
+          <span class="cap">Education</span>
+          <span class="big">M.A., Youth Leadership and Education</span>
+          <span class="foot"><span>2025 – present</span><span>→</span></span>
+        </button>
+        <button class="note n5" type="button" data-go="honors" id="n5">
+          <span class="cap">Honors</span>
+          <span class="big">Academic Excellence Award</span>
+          <span class="foot"><span>Sep 2025</span><span>→</span></span>
+        </button>
+        <span class="tagc tag-a" aria-hidden="true">Minn</span>
+        <span class="tagc tag-b" aria-hidden="true">Youth Studies</span>
+      </div>
+    </section>
+  </div>
+</main>
+
+<!-- DETAIL -->
+<main id="view-detail" class="gutter" hidden>
+  <div class="container detail">
+    <aside>
+      <button class="back" type="button" data-home>← Back to home</button>
+      <div class="who"><b>Minn Lee</b><span>M.A. student, Myongji University</span></div>
+      <div class="menu" id="detailMenu">
+        <button type="button" data-go="research"><span class="dot" style="background:var(--n-pink)"></span>Research</button>
+        <button type="button" data-go="experience"><span class="dot" style="background:var(--n-navy)"></span>Work experience</button>
+        <button type="button" data-go="training"><span class="dot" style="background:var(--n-blue)"></span>Training &amp; activities</button>
+        <button type="button" data-go="education"><span class="dot" style="background:var(--n-butter)"></span>Education</button>
+        <button type="button" data-go="honors"><span class="dot" style="background:var(--n-white)"></span>Honors &amp; scholarships</button>
+      </div>
+    </aside>
+
+    <div>
+      <section class="panel" data-panel="research">
+        <h2>Research</h2>
+        <p class="lead">Youth sexuality culture, comprehensive sexuality education, and constructionist learning.</p>
+        <article class="paper">
+          <span class="meta">JOURNAL ARTICLE · FIRST AUTHOR · 2026</span>
+          <h3>The Educational Meaning of "Hard Fun" Experienced by Adolescents in Science and Technology Activities: Focusing on Seymour Papert's Constructionism</h3>
+          <p><b>Lee, M.</b>, Kim, M., &amp; Yoon, H. (2026). <i>Journal of Future Youth Studies</i>, 23(2), 139–158.</p>
+          <p class="ko">원제: 과학기술 체험활동에서 청소년이 경험한 ‘어려움의 재미(hard-fun)’의 교육적 의미 · 미래청소년학회지</p>
+        </article>
+        <div class="item">
+          <div class="when">Oct 2025</div>
+          <div class="what"><h3>Research Assistant</h3><p>Assisted on a funded research project.</p></div>
+        </div>
+        <div class="item">
+          <div class="when">Sep 2025 – present</div>
+          <div class="what">
+            <h3>Sexual Scripts in School Sex Education<span class="chip">In progress</span></h3>
+            <span class="org">Master's research plan</span>
+            <p>Uses sexual script theory (Gagnon &amp; Simon) to examine the gap between institutional sex-education discourse and young people's lived sexual culture, and to build a case for comprehensive sexuality education.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" data-panel="experience" hidden>
+        <h2>Work experience</h2>
+        <p class="lead">Program coordination and academic administration in youth and education settings.</p>
+        <div class="item">
+          <div class="when">Jul – Oct 2025</div>
+          <div class="what">
+            <h3>Program Coordinator, Baeumteo Education Support Program</h3>
+            <span class="org">Samsung Dream Scholarship Foundation</span>
+            <ul><li>Supported on-site consulting visits for the 2025 program</li><li>Liaised between university faculty and local centers; managed schedules and documents</li></ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="when">Mar 2023 – Jun 2025</div>
+          <div class="what">
+            <h3>Department Assistant</h3>
+            <span class="org">Dept. of Youth Leadership and Education, Myongji University</span>
+            <ul><li>Supported faculty teaching and research; prepared course materials</li><li>Drafted and managed department documents; handled student academic inquiries</li></ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="when">Mar – Dec 2024</div>
+          <div class="what">
+            <h3>Administrative Work-Study Student</h3>
+            <span class="org">Academic Affairs Office, College of Social Sciences, Myongji University</span>
+            <ul><li>Managed academic calendars and student records; processed official documents</li><li>Answered student inquiries about academic regulations</li></ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="when">Sep 2022 – Feb 2023</div>
+          <div class="what">
+            <h3>Administrative Work-Study Student</h3>
+            <span class="org">Graduate School Academic Affairs Office, Myongji University</span>
+            <ul><li>Handled student requests and supported daily administration</li><li>Assisted with enrollment changes and scholarship records</li></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" data-panel="training" hidden>
+        <h2>Training &amp; activities</h2>
+        <p class="lead">Field practice in youth work, teaching areas and student leadership.</p>
+        <div class="item">
+          <div class="when">Oct 11 – Nov 8, 2024</div>
+          <div class="what"><h3>Youth Work Field Practicum II · 80 hrs</h3><span class="org">Seoul Metropolitan AHA! Youth Sexuality Culture Center</span></div>
+        </div>
+        <div class="item">
+          <div class="when">Sep 6 – Oct 5, 2024</div>
+          <div class="what"><h3>Youth Work Field Practicum I · 80 hrs</h3><span class="org">Seoul Metropolitan AHA! Youth Sexuality Culture Center</span><p>160 hours completed in total.</p></div>
+        </div>
+        <div class="item">
+          <div class="when">Teaching areas</div>
+          <div class="what"><h3>Global Citizenship Education · Democratic Citizenship Education</h3></div>
+        </div>
+        <div class="item">
+          <div class="when">Jun 2023 – Aug 2024</div>
+          <div class="what"><h3>President</h3><span class="org">Étoile Literary Criticism Club, Myongji University</span></div>
+        </div>
+        <div class="item">
+          <div class="when">Mar 2022 – Feb 2023</div>
+          <div class="what"><h3>Student Council Representative</h3><span class="org">Bangmok College of Basic Studies, Myongji University</span></div>
+        </div>
+        <div class="item">
+          <div class="when">2022 · 2023</div>
+          <div class="what"><h3>Staff Member, General Student Council</h3><span class="org">Humanities Campus, Myongji University</span><p>Mar – Dec 2022, Sep – Dec 2023</p></div>
+        </div>
+      </section>
+
+      <section class="panel" data-panel="education" hidden>
+        <h2>Education</h2>
+        <p class="lead">Youth Leadership and Education at Myongji University, Seoul.</p>
+        <div class="item">
+          <div class="when">Sep 2025 – present</div>
+          <div class="what"><h3>M.A., Youth Leadership and Education<span class="chip">Enrolled</span></h3><span class="org">Graduate School, Myongji University</span></div>
+        </div>
+        <div class="item">
+          <div class="when">Mar 2022 – Aug 2025</div>
+          <div class="what"><h3>B.A., Youth Leadership and Education</h3><span class="org">College of Media &amp; Human Life, Myongji University</span><p>Graduated in 7 semesters.</p></div>
+        </div>
+        <div class="item">
+          <div class="when">Mar 2019 – Feb 2022</div>
+          <div class="what"><h3>High School Diploma</h3><span class="org">Sanbon High School</span></div>
+        </div>
+      </section>
+
+      <section class="panel" data-panel="honors" hidden>
+        <h2>Honors &amp; scholarships</h2>
+        <p class="lead">Awards and scholarships from Myongji University.</p>
+        <div class="item"><div class="when">Sep 2025</div><div class="what"><h3>Academic Excellence Award</h3></div></div>
+        <div class="item"><div class="when">Spring 2024</div><div class="what"><h3>President's Special Scholarship</h3></div></div>
+        <div class="item"><div class="when">Spring 2024</div><div class="what"><h3>Training Scholarship</h3></div></div>
+        <div class="item"><div class="when">Fall 2023</div><div class="what"><h3>Globalization Scholarship</h3></div></div>
+        <div class="item"><div class="when">Fall 2022</div><div class="what"><h3>Student Self-Government Scholarship</h3></div></div>
+        <div class="item"><div class="when">2022 – 2024</div><div class="what"><h3>Exemplary Student Scholarship</h3><p>4 semesters: Fall 2022, Spring 2023, Spring &amp; Fall 2024</p></div></div>
+        <div class="item"><div class="when">2023 – 2025</div><div class="what"><h3>Career Launch Support Scholarship</h3><p>5 semesters: Spring 2023 – Spring 2025</p></div></div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer class="gutter"><div class="container">© 2026 Minn Lee · Myongji University, Seoul</div></footer>
+
+<script>
+(function () {
+  var names = ['research', 'experience', 'training', 'education', 'honors'];
+  var home = document.getElementById('view-home');
+  var detail = document.getElementById('view-detail');
+
+  function render() {
+    var h = (location.hash || '').slice(1);
+    var on = names.indexOf(h) !== -1;
+    home.hidden = on; detail.hidden = !on;
+    if (on) {
+      document.querySelectorAll('[data-panel]').forEach(function (p) { p.hidden = p.dataset.panel !== h; });
+      document.querySelectorAll('#detailMenu button').forEach(function (b) { b.classList.toggle('on', b.dataset.go === h); });
+    }
+    window.scrollTo(0, 0);
+  }
+  document.querySelectorAll('[data-go]').forEach(function (b) {
+    b.addEventListener('click', function () { location.hash = b.dataset.go; });
+  });
+  document.querySelectorAll('[data-home]').forEach(function (b) {
+    b.addEventListener('click', function () { location.hash = 'home'; });
+  });
+  // Hovering a menu row lifts its matching note
+  document.querySelectorAll('#homeMenu button').forEach(function (b) {
+    var n = document.getElementById(b.dataset.n);
+    b.addEventListener('mouseenter', function () { n.classList.add('lift'); b.classList.add('on'); });
+    b.addEventListener('mouseleave', function () { n.classList.remove('lift'); b.classList.remove('on'); });
+  });
+  window.addEventListener('hashchange', render);
+  render();
+})();
+</script>
+
+</body>
+</html>

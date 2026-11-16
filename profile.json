@@ -1,0 +1,102 @@
+{
+  "name": "Minn Lee",
+  "nameKo": "이민",
+  "title": "M.A. student in Youth Leadership and Education",
+  "affiliation": "Myongji University, Seoul",
+  "photo": "minn.jpg",
+  "linkedin": "https://www.linkedin.com/in/minn-lee-a57447400",
+  "researchInterests": [
+    "Youth sexuality culture",
+    "Comprehensive sexuality education",
+    "Sexual script theory",
+    "Constructionist learning",
+    "Youth hands-on activities",
+    "Citizenship education"
+  ],
+  "research": {
+    "publications": [
+      {
+        "authors": ["Lee, M.", "Kim, M.", "Yoon, H."],
+        "year": 2026,
+        "title": "The Educational Meaning of \"Hard Fun\" Experienced by Adolescents in Science and Technology Activities: Focusing on Seymour Papert's Constructionism",
+        "titleKo": "과학기술 체험활동에서 청소년이 경험한 '어려움의 재미(hard-fun)'의 교육적 의미: 시모어 패퍼트의 구성주의를 중심으로",
+        "journal": "Journal of Future Youth Studies",
+        "journalKo": "미래청소년학회지",
+        "volume": 23,
+        "issue": 2,
+        "pages": "139-158",
+        "role": "First author"
+      }
+    ],
+    "projects": [
+      { "period": "Oct 2025", "role": "Research Assistant", "description": "Assisted on a funded research project." },
+      {
+        "period": "Sep 2025 - present",
+        "role": "Sexual Scripts in School Sex Education",
+        "organization": "Master's research plan",
+        "status": "In progress",
+        "description": "Uses sexual script theory (Gagnon & Simon) to examine the gap between institutional sex-education discourse and young people's lived sexual culture, and to build a case for comprehensive sexuality education."
+      }
+    ]
+  },
+  "experience": [
+    {
+      "period": "Jul - Oct 2025",
+      "role": "Program Coordinator, Baeumteo Education Support Program",
+      "organization": "Samsung Dream Scholarship Foundation",
+      "details": [
+        "Supported on-site consulting visits for the 2025 program",
+        "Liaised between university faculty and local centers; managed schedules and documents"
+      ]
+    },
+    {
+      "period": "Mar 2023 - Jun 2025",
+      "role": "Department Assistant",
+      "organization": "Dept. of Youth Leadership and Education, Myongji University",
+      "details": [
+        "Supported faculty teaching and research; prepared course materials",
+        "Drafted and managed department documents; handled student academic inquiries"
+      ]
+    },
+    {
+      "period": "Mar - Dec 2024",
+      "role": "Administrative Work-Study Student",
+      "organization": "Academic Affairs Office, College of Social Sciences, Myongji University",
+      "details": [
+        "Managed academic calendars and student records; processed official documents",
+        "Answered student inquiries about academic regulations"
+      ]
+    },
+    {
+      "period": "Sep 2022 - Feb 2023",
+      "role": "Administrative Work-Study Student",
+      "organization": "Graduate School Academic Affairs Office, Myongji University",
+      "details": [
+        "Handled student requests and supported daily administration",
+        "Assisted with enrollment changes and scholarship records"
+      ]
+    }
+  ],
+  "training": [
+    { "period": "Oct 11 - Nov 8, 2024", "title": "Youth Work Field Practicum II", "hours": 80, "organization": "Seoul Metropolitan AHA! Youth Sexuality Culture Center" },
+    { "period": "Sep 6 - Oct 5, 2024", "title": "Youth Work Field Practicum I", "hours": 80, "organization": "Seoul Metropolitan AHA! Youth Sexuality Culture Center" },
+    { "period": "Teaching areas", "title": "Global Citizenship Education, Democratic Citizenship Education" },
+    { "period": "Jun 2023 - Aug 2024", "title": "President", "organization": "Étoile Literary Criticism Club, Myongji University" },
+    { "period": "Mar 2022 - Feb 2023", "title": "Student Council Representative", "organization": "Bangmok College of Basic Studies, Myongji University" },
+    { "period": "Mar - Dec 2022, Sep - Dec 2023", "title": "Staff Member, General Student Council", "organization": "Humanities Campus, Myongji University" }
+  ],
+  "education": [
+    { "period": "Sep 2025 - present", "degree": "M.A., Youth Leadership and Education", "school": "Graduate School, Myongji University", "status": "Enrolled" },
+    { "period": "Mar 2022 - Aug 2025", "degree": "B.A., Youth Leadership and Education", "school": "College of Media & Human Life, Myongji University", "note": "Graduated in 7 semesters." },
+    { "period": "Mar 2019 - Feb 2022", "degree": "High School Diploma", "school": "Sanbon High School" }
+  ],
+  "honors": [
+    { "date": "Sep 2025", "title": "Academic Excellence Award" },
+    { "date": "Spring 2024", "title": "President's Special Scholarship" },
+    { "date": "Spring 2024", "title": "Training Scholarship" },
+    { "date": "Fall 2023", "title": "Globalization Scholarship" },
+    { "date": "Fall 2022", "title": "Student Self-Government Scholarship" },
+    { "date": "2022 - 2024", "title": "Exemplary Student Scholarship", "note": "4 semesters: Fall 2022, Spring 2023, Spring & Fall 2024" },
+    { "date": "2023 - 2025", "title": "Career Launch Support Scholarship", "note": "5 semesters: Spring 2023 - Spring 2025" }
+  ]
+}
