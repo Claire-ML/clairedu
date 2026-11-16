@@ -120,52 +120,34 @@
         "en": "Research Assistant",
         "ko": "연구과제 보조연구원"
       }
-    },
-    {
-      "period": {
-        "en": "Sep 2025 – present",
-        "ko": "2025.09 –"
-      },
-      "title": {
-        "en": "Sexual Scripts in School Sex Education",
-        "ko": "학교 성교육이 재현하는 성각본 분석"
-      },
-      "org": {
-        "en": "Master's research plan",
-        "ko": "석사 연구계획"
-      },
-      "status": {
-        "en": "In progress",
-        "ko": "진행 중"
-      },
-      "description": {
-        "en": "Uses sexual script theory (Gagnon & Simon) to examine the gap between institutional sex-education discourse and young people's lived sexual culture, and to build a case for comprehensive sexuality education.",
-        "ko": "제도적 성교육 담론과 청소년의 실제 성문화 경험 사이의 불일치를 성각본 이론(Gagnon & Simon)으로 분석하고, 포괄적 성교육으로의 전환 근거를 모색합니다."
-      }
     }
   ],
   "experience": [
     {
       "period": {
-        "en": "Jul – Oct 2025",
-        "ko": "2025.07 – 2025.10"
+        "en": "Jul – Oct 2025 / Jul – Oct 2026",
+        "ko": "2025.07 – 2025.10 / 2026.07 – 2026.10"
       },
       "title": {
-        "en": "Program Coordinator, Baeumteo Education Support Program",
+        "en": "Program Coordinator, Education Support Program",
         "ko": "배움터 교육지원사업 코디네이터"
       },
       "org": {
         "en": "Samsung Dream Scholarship Foundation",
         "ko": "(재)삼성꿈장학재단"
       },
+      "status": {
+        "en": "Completed",
+        "ko": "진행 완료"
+      },
       "details": [
         {
-          "en": "Supported on-site consulting visits for the 2025 program",
-          "ko": "2025 배움터 교육지원사업 현장방문컨설팅 진행 및 행정 지원"
+          "en": "Supported on-site consulting visits for the 2025, 2026 program",
+          "ko": "2025, 2026 배움터 교육지원사업 현장방문컨설팅 진행 및 행정 지원"
         },
         {
           "en": "Liaised between university faculty and local centers; managed schedules and documents",
-          "ko": "대학 교수진과 지역 센터 간 소통, 방문 일정 및 서류 준비"
+          "ko": "전문 강사진과 지역 센터 간 소통, 강의 운영 전반 지원"
         }
       ]
     },
@@ -245,44 +227,24 @@
   "training": [
     {
       "period": {
-        "en": "Oct 11 – Nov 8, 2024",
-        "ko": "2024.10.11 – 11.08"
+        "en": "Sep 6 – Nov 8, 2024",
+        "ko": "2024.09.06 – 11.08"
       },
       "title": {
-        "en": "Youth Work Field Practicum II · 80 hrs",
-        "ko": "청소년지도 현장실습 Ⅱ · 80시간"
+        "en": "Youth Work Field Practicum",
+        "ko": "청소년지도 현장실습"
       },
       "org": {
-        "en": "Seoul Metropolitan AHA! Youth Sexuality Culture Center",
+        "en": "Seoul AHA! Youth Sexuality Culture Center",
         "ko": "서울시립아하!청소년성문화센터"
-      }
-    },
-    {
-      "period": {
-        "en": "Sep 6 – Oct 5, 2024",
-        "ko": "2024.09.06 – 10.05"
       },
-      "title": {
-        "en": "Youth Work Field Practicum I · 80 hrs",
-        "ko": "청소년지도 현장실습 Ⅰ · 80시간"
-      },
-      "org": {
-        "en": "Seoul Metropolitan AHA! Youth Sexuality Culture Center",
-        "ko": "서울시립아하!청소년성문화센터"
+      "status": {
+        "en": "Completed",
+        "ko": "진행 완료"
       },
       "description": {
-        "en": "160 hours completed in total.",
-        "ko": "총 160시간 현장실습 완료"
-      }
-    },
-    {
-      "period": {
-        "en": "Teaching areas",
-        "ko": "강의 분야"
-      },
-      "title": {
-        "en": "Global Citizenship Education · Democratic Citizenship Education",
-        "ko": "세계시민교육 · 민주시민교육"
+        "en": "Planned and facilitated youth sexuality education programs, and conducted field observations to assess participant engagement.",
+        "ko": "청소년 성문화 관련 프로그램 기획, 운영 및 참관"
       }
     },
     {
@@ -301,16 +263,24 @@
     },
     {
       "period": {
-        "en": "Mar 2022 – Feb 2023",
-        "ko": "2022.03 – 2023.02"
+        "en": "July - Dec 2023",
+        "ko": "2023.07 - 2023.12"
       },
       "title": {
-        "en": "Student Council Representative",
-        "ko": "학생회 대표자"
+        "en": "13th POSCO International Academic Mentoring Volunteer Program",
+        "ko": "포스코인터내셔널 1:1 학습멘토링 포인터스 대학생 봉사단 13기"
       },
       "org": {
-        "en": "Bangmok College of Basic Studies, Myongji University",
-        "ko": "명지대학교 방목기초교육대학 학생회"
+        "en": "POSCO International",
+        "ko": "포스코인터내셔널"
+      },
+      "status": {
+        "en": "Completed",
+        "ko": "진행 완료"
+      },
+      "description": {
+        "en": "Planned and facilitated academic mentoring and emotional development programs for youth at a local community youth center.",
+        "ko": "지역아동센터 청소년을 대상으로 학습 및 정서 교육 및 프로그램 진행"
       }
     },
     {
@@ -326,9 +296,13 @@
         "en": "Humanities Campus, Myongji University",
         "ko": "명지대학교 인문캠퍼스 총학생회"
       },
+      "status": {
+        "en": "Complete",
+        "ko": "진행 완료"
+      },
       "description": {
-        "en": "Mar – Dec 2022, Sep – Dec 2023",
-        "ko": "2022.03 – 12, 2023.09 – 12"
+        "en": "Staff Member, Department of Education and Welfare",
+        "ko": "교육복지국 국원"
       }
     }
   ],
