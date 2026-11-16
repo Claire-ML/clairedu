@@ -1,0 +1,269 @@
+# Pages CMS 설정 파일 — app.pagescms.org 에서 이 저장소를 열면 아래 양식이 나타납니다.
+media:
+  input: images
+  output: images
+
+content:
+  - name: profile
+    label: 홈페이지 내용 (Profile)
+    type: file
+    path: profile.json
+    format: json
+    fields:
+      - name: photo
+        label: 프로필 사진
+        type: image
+      - name: linkedin
+        label: LinkedIn 주소
+        type: string
+
+      - name: name
+        label: 이름
+        type: object
+        fields:
+          - { name: en, label: English, type: string }
+          - { name: ko, label: 한국어, type: string }
+      - name: headline
+        label: 메인 제목
+        type: object
+        fields:
+          - { name: en, label: English, type: string }
+          - { name: ko, label: 한국어, type: string }
+      - name: intro
+        label: 메인 소개 문장
+        type: object
+        fields:
+          - { name: en, label: English, type: text }
+          - { name: ko, label: 한국어, type: text }
+      - name: affiliation
+        label: 소속 (상세 화면 왼쪽)
+        type: object
+        fields:
+          - { name: en, label: English, type: string }
+          - { name: ko, label: 한국어, type: string }
+
+      - name: notes
+        label: 메인 화면 색깔 노트
+        type: object
+        fields:
+          - name: research
+            label: 연구 노트 (핑크)
+            type: object
+            fields:
+              - name: text
+                label: 노트 문구
+                type: object
+                fields:
+                  - { name: en, label: English, type: string }
+                  - { name: ko, label: 한국어, type: string }
+              - name: foot
+                label: 아래 작은 글씨
+                type: object
+                fields:
+                  - { name: en, label: English, type: string }
+                  - { name: ko, label: 한국어, type: string }
+          - name: experience
+            label: 실무 노트 (네이비)
+            type: object
+            fields:
+              - name: text
+                label: 노트 문구
+                type: object
+                fields:
+                  - { name: en, label: English, type: string }
+                  - { name: ko, label: 한국어, type: string }
+              - name: foot
+                label: 아래 작은 글씨
+                type: object
+                fields:
+                  - { name: en, label: English, type: string }
+                  - { name: ko, label: 한국어, type: string }
+          - name: training
+            label: 교육 노트 (하늘색, 손글씨)
+            type: object
+            fields:
+              - name: text
+                label: 노트 문구
+                type: object
+                fields:
+                  - { name: en, label: English, type: string }
+                  - { name: ko, label: 한국어, type: string }
+              - name: foot
+                label: 아래 작은 글씨
+                type: object
+                fields:
+                  - { name: en, label: English, type: string }
+                  - { name: ko, label: 한국어, type: string }
+          - name: education
+            label: 학력 노트 (노랑)
+            type: object
+            fields:
+              - name: text
+                label: 노트 문구
+                type: object
+                fields:
+                  - { name: en, label: English, type: string }
+                  - { name: ko, label: 한국어, type: string }
+              - name: foot
+                label: 아래 작은 글씨
+                type: object
+                fields:
+                  - { name: en, label: English, type: string }
+                  - { name: ko, label: 한국어, type: string }
+          - name: honors
+            label: 수상 노트 (흰색)
+            type: object
+            fields:
+              - name: text
+                label: 노트 문구
+                type: object
+                fields:
+                  - { name: en, label: English, type: string }
+                  - { name: ko, label: 한국어, type: string }
+              - name: foot
+                label: 아래 작은 글씨
+                type: object
+                fields:
+                  - { name: en, label: English, type: string }
+                  - { name: ko, label: 한국어, type: string }
+
+      - name: leads
+        label: 각 섹션 소개 문장
+        type: object
+        fields:
+          - name: research
+            label: 연구 이력
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ko, label: 한국어, type: text }
+          - name: experience
+            label: 실무 이력
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ko, label: 한국어, type: text }
+          - name: training
+            label: 교육 · 활동 이력
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ko, label: 한국어, type: text }
+          - name: education
+            label: 학력사항
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ko, label: 한국어, type: text }
+          - name: honors
+            label: 수상 · 장학
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ko, label: 한국어, type: text }
+
+      - name: publications
+        label: 논문
+        type: object
+        list: true
+        fields:
+          - name: tag
+            label: 윗줄 태그 (예 JOURNAL ARTICLE · FIRST AUTHOR · 2026)
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ko, label: 한국어, type: string }
+          - name: title
+            label: 논문 제목
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ko, label: 한국어, type: text }
+          - name: authors
+            label: 저자 (예 Lee, M., Kim, M., & Yoon, H.)
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ko, label: 한국어, type: string }
+          - name: me
+            label: 굵게 표시할 내 이름 (예 Lee, M. / 이민)
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ko, label: 한국어, type: string }
+          - { name: year, label: 연도, type: string }
+          - name: journal
+            label: 학술지
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ko, label: 한국어, type: string }
+          - { name: volume, label: "권(호) 예 23(2)", type: string }
+          - { name: pages, label: "쪽 예 139–158", type: string }
+
+      - name: research
+        label: 연구 이력
+        type: object
+        list: true
+        fields: &item
+          - name: period
+            label: 기간
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ko, label: 한국어, type: string }
+          - name: title
+            label: 제목 / 직위
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ko, label: 한국어, type: string }
+          - name: org
+            label: 기관 (없으면 비워 두기)
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ko, label: 한국어, type: string }
+          - name: status
+            label: 상태 표시 (예 In progress / 진행 중, 없으면 비워 두기)
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ko, label: 한국어, type: string }
+          - name: description
+            label: 설명 (없으면 비워 두기)
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ko, label: 한국어, type: text }
+          - name: details
+            label: 세부 항목 (글머리표)
+            type: object
+            list: true
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ko, label: 한국어, type: string }
+
+      - name: experience
+        label: 실무 이력
+        type: object
+        list: true
+        fields: *item
+
+      - name: training
+        label: 교육 · 활동 이력
+        type: object
+        list: true
+        fields: *item
+
+      - name: education
+        label: 학력사항
+        type: object
+        list: true
+        fields: *item
+
+      - name: honors
+        label: 수상 · 장학
+        type: object
+        list: true
+        fields: *item
