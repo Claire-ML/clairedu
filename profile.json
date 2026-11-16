@@ -238,10 +238,6 @@
         "en": "Seoul AHA! Youth Sexuality Culture Center",
         "ko": "서울시립아하!청소년성문화센터"
       },
-      "status": {
-        "en": "Completed",
-        "ko": "진행 완료"
-      },
       "description": {
         "en": "Planned and facilitated youth sexuality education programs, and conducted field observations to assess participant engagement.",
         "ko": "청소년 성문화 관련 프로그램 기획, 운영 및 참관"
@@ -274,10 +270,6 @@
         "en": "POSCO International",
         "ko": "포스코인터내셔널"
       },
-      "status": {
-        "en": "Completed",
-        "ko": "진행 완료"
-      },
       "description": {
         "en": "Planned and facilitated academic mentoring and emotional development programs for youth at a local community youth center.",
         "ko": "지역아동센터 청소년을 대상으로 학습 및 정서 교육 및 프로그램 진행"
@@ -296,13 +288,27 @@
         "en": "Humanities Campus, Myongji University",
         "ko": "명지대학교 인문캠퍼스 총학생회"
       },
-      "status": {
-        "en": "Complete",
-        "ko": "진행 완료"
-      },
       "description": {
         "en": "Staff Member, Department of Education and Welfare",
         "ko": "교육복지국 국원"
+      }
+    },
+    {
+      "period": {
+        "en": "Feb  - Dec 2022",
+        "ko": "2022.02 - 2022.12"
+      },
+      "title": {
+        "en": "Facilitator, 4th Seoul Metropolitan Youth Participation Activity Program",
+        "ko": "제4기 서울특별시 청소년참여 활동조력자"
+      },
+      "org": {
+        "en": "Seoul Metropolitan Government",
+        "ko": "서울특별시"
+      },
+      "description": {
+        "en": "Supported and mentored Seoul Youth Council members in developing and delivering policy presentations.",
+        "ko": "서울특별시 청소년 의원의 발제  활동 지원 및  지도"
       }
     }
   ],
