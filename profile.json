@@ -25,7 +25,7 @@
       },
       "foot": {
         "en": "Research History / Publications / Presentations",
-        "ko": "연구 프로젝트, 논문, 연구 경"
+        "ko": "연구 프로젝트, 논문, 연구 경력"
       }
     },
     "experience": {
@@ -68,7 +68,7 @@
   "leads": {
     "education": {
       "en": "Youth Leadership and Education at Myongji University, Seoul.",
-      "ko": "명지대학교에서 청소년지도학을 공부하고 있습니다."
+      "ko": "명지대학교 청소년지도학과 석사 과정 재학"
     }
   },
   "publications": [
@@ -112,10 +112,6 @@
         "en": "Myongji University Industry-Academia Cooperation Foundation",
         "ko": "명지대학교 산학협력단"
       },
-      "status": {
-        "en": "Completed",
-        "ko": "진행 완료"
-      },
       "description": {
         "en": "Research Assistant",
         "ko": "연구과제 보조연구원"
@@ -123,6 +119,34 @@
     }
   ],
   "experience": [
+    {
+      "period": {
+        "en": "Sep 2025 - ",
+        "ko": "2025.09 -"
+      },
+      "title": {
+        "en": "Teaching Assistant",
+        "ko": "교육 조교"
+      },
+      "org": {
+        "en": "Myongji University",
+        "ko": "명지대학교"
+      },
+      "status": {
+        "en": "In progress",
+        "ko": "진행 중"
+      },
+      "details": [
+        {
+          "en": "Managed student enrollment and records, and proctored examinations.",
+          "ko": "수강생 관리 및 시험 감독"
+        },
+        {
+          "en": "Provided academic guidance and comprehensive operational support for classes.",
+          "ko": "학사 안내 및 수업 지원"
+        }
+      ]
+    },
     {
       "period": {
         "en": "Jul – Oct 2025 / Jul – Oct 2026",
@@ -135,10 +159,6 @@
       "org": {
         "en": "Samsung Dream Scholarship Foundation",
         "ko": "(재)삼성꿈장학재단"
-      },
-      "status": {
-        "en": "Completed",
-        "ko": "진행 완료"
       },
       "details": [
         {
@@ -153,21 +173,35 @@
     },
     {
       "period": {
+        "en": "Dec 2025 - Feb 2026",
+        "ko": "2025.12 - 2026.02"
+      },
+      "title": {
+        "en": "Administrative Assistant",
+        "ko": "학사 조교"
+      },
+      "org": {
+        "en": "Korea National Open University (KNOU), Department of Education",
+        "ko": "한국방송통신대학 교육학과"
+      }
+    },
+    {
+      "period": {
         "en": "Mar 2023 – Jun 2025",
         "ko": "2023.03 – 2025.06"
       },
       "title": {
-        "en": "Department Assistant",
-        "ko": "학과 조교"
+        "en": "Teaching Assistant",
+        "ko": "교육 조교"
       },
       "org": {
-        "en": "Dept. of Youth Leadership and Education, Myongji University",
-        "ko": "명지대학교 청소년지도학과"
+        "en": "Myongji University",
+        "ko": "명지대학교"
       },
       "details": [
         {
           "en": "Supported faculty teaching and research; prepared course materials",
-          "ko": "교수진의 강의·연구 업무 보조, 강의 자료 준비"
+          "ko": "강의·연구 업무 보조, 강의 자료 준비"
         },
         {
           "en": "Drafted and managed department documents; handled student academic inquiries",
@@ -367,6 +401,20 @@
   "honors": [
     {
       "period": {
+        "en": "Aug 2025",
+        "ko": "2025.08"
+      },
+      "title": {
+        "en": "Distinguished Service Award",
+        "ko": "공로상"
+      },
+      "org": {
+        "en": "Myongji University",
+        "ko": "명지대학교"
+      }
+    },
+    {
+      "period": {
         "en": "Sep 2025",
         "ko": "2025.09"
       },
@@ -377,28 +425,8 @@
     },
     {
       "period": {
-        "en": "Spring 2024",
-        "ko": "2024-1학기"
-      },
-      "title": {
-        "en": "President's Special Scholarship",
-        "ko": "총장특별장학금"
-      }
-    },
-    {
-      "period": {
-        "en": "Spring 2024",
-        "ko": "2024-1학기"
-      },
-      "title": {
-        "en": "Training Scholarship",
-        "ko": "연수장학금"
-      }
-    },
-    {
-      "period": {
-        "en": "Fall 2023",
-        "ko": "2023-2학기"
+        "en": "Feb 2024",
+        "ko": "2024.02"
       },
       "title": {
         "en": "Globalization Scholarship",
@@ -407,8 +435,8 @@
     },
     {
       "period": {
-        "en": "Fall 2022",
-        "ko": "2022-2학기"
+        "en": "Feb 2023",
+        "ko": "2023.02"
       },
       "title": {
         "en": "Student Self-Government Scholarship",
@@ -423,10 +451,6 @@
       "title": {
         "en": "Exemplary Student Scholarship",
         "ko": "모범장학금"
-      },
-      "description": {
-        "en": "4 semesters: Fall 2022, Spring 2023, Spring & Fall 2024",
-        "ko": "4회: 2022-2, 2023-1, 2024-1, 2024-2학기"
       }
     },
     {
@@ -437,10 +461,6 @@
       "title": {
         "en": "Career Launch Support Scholarship",
         "ko": "사회진출지원장학금"
-      },
-      "description": {
-        "en": "5 semesters: Spring 2023 – Spring 2025",
-        "ko": "5회: 2023-1학기 – 2025-1학기"
       }
     }
   ]
