@@ -1,192 +1,479 @@
 {
   "photo": "minn.jpg",
   "linkedin": "https://www.linkedin.com/in/minn-lee-a57447400",
-  "name": { "en": "Minn Lee", "ko": "이민" },
-  "headline": { "en": "Hi, I'm Minn Lee.", "ko": "안녕하세요, 이민입니다." },
+  "name": {
+    "en": "Minn Lee",
+    "ko": "이민"
+  },
+  "headline": {
+    "en": "Hi, I'm Minn Lee.",
+    "ko": "이민"
+  },
   "intro": {
     "en": "M.A. student in Youth Leadership and Education at Myongji University, Seoul. I study how young people learn, play and build their own culture.",
     "ko": "명지대학교 대학원 청소년지도학과 석사과정에 재학 중입니다. 청소년이 어떻게 배우고, 놀고, 자신만의 문화를 만들어 가는지 연구합니다."
   },
-  "affiliation": { "en": "M.A. student, Myongji University", "ko": "명지대학교 대학원 석사과정" },
+  "affiliation": {
+    "en": "M.A. student, Myongji University",
+    "ko": "명지대학교 대학원 석사과정"
+  },
   "notes": {
-    "research": { "text": { "en": "First-author paper on \"hard fun\" in youth science activities", "ko": "청소년 과학 체험활동의 ‘어려움의 재미’ 제1저자 논문" }, "foot": { "en": "2026", "ko": "2026" } },
-    "experience": { "text": { "en": "Program coordinator & department assistant", "ko": "사업 코디네이터 · 학과 조교" }, "foot": { "en": "4 roles", "ko": "4개 직무" } },
-    "training": { "text": { "en": "160 hrs field practicum!", "ko": "현장실습 160시간!" }, "foot": { "en": "2024", "ko": "2024" } },
-    "education": { "text": { "en": "M.A., Youth Leadership and Education", "ko": "청소년지도학 석사과정" }, "foot": { "en": "2025 – present", "ko": "2025 – 재학 중" } },
-    "honors": { "text": { "en": "Academic Excellence Award", "ko": "성적우수상" }, "foot": { "en": "Sep 2025", "ko": "2025.09" } }
+    "research": {
+      "text": {
+        "en": "First-author paper on \"hard fun\" in youth science activities",
+        "ko": "청소년 과학 체험활동의 ‘어려움의 재미’ 제1저자 논문"
+      },
+      "foot": {
+        "en": "2026",
+        "ko": "2026"
+      }
+    },
+    "experience": {
+      "text": {
+        "en": "Program coordinator & department assistant",
+        "ko": "사업 코디네이터 · 학과 조교"
+      },
+      "foot": {
+        "en": "4 roles",
+        "ko": "4개 직무"
+      }
+    },
+    "training": {
+      "text": {
+        "en": "160 hrs field practicum!",
+        "ko": "현장실습 160시간!"
+      },
+      "foot": {
+        "en": "2024",
+        "ko": "2024"
+      }
+    },
+    "education": {
+      "text": {
+        "en": "M.A., Youth Leadership and Education",
+        "ko": "청소년지도학 석사과정"
+      },
+      "foot": {
+        "en": "2025 – present",
+        "ko": "2025 – 재학 중"
+      }
+    },
+    "honors": {
+      "text": {
+        "en": "Academic Excellence Award",
+        "ko": "성적우수상"
+      },
+      "foot": {
+        "en": "Sep 2025",
+        "ko": "2025.09"
+      }
+    }
   },
   "leads": {
-    "research": { "en": "Youth sexuality culture, comprehensive sexuality education, and constructionist learning.", "ko": "청소년 성문화, 포괄적 성교육, 구성주의 학습을 연구합니다." },
-    "experience": { "en": "Program coordination and academic administration in youth and education settings.", "ko": "청소년·교육 현장에서의 사업 운영과 학사 행정 경험입니다." },
-    "training": { "en": "Field practice in youth work, teaching areas and student leadership.", "ko": "청소년 현장실습, 강의 분야, 학생 자치 활동입니다." },
-    "education": { "en": "Youth Leadership and Education at Myongji University, Seoul.", "ko": "명지대학교에서 청소년지도학을 공부하고 있습니다." },
-    "honors": { "en": "Awards and scholarships from Myongji University.", "ko": "명지대학교에서 받은 상과 장학금입니다." }
+    "research": {
+      "en": "Youth sexuality culture, comprehensive sexuality education, and constructionist learning.",
+      "ko": "청소년 성문화, 포괄적 성교육, 구성주의 학습을 연구합니다."
+    },
+    "experience": {
+      "en": "Program coordination and academic administration in youth and education settings.",
+      "ko": "청소년·교육 현장에서의 사업 운영과 학사 행정 경험입니다."
+    },
+    "training": {
+      "en": "Field practice in youth work, teaching areas and student leadership.",
+      "ko": "청소년 현장실습, 강의 분야, 학생 자치 활동입니다."
+    },
+    "education": {
+      "en": "Youth Leadership and Education at Myongji University, Seoul.",
+      "ko": "명지대학교에서 청소년지도학을 공부하고 있습니다."
+    },
+    "honors": {
+      "en": "Awards and scholarships from Myongji University.",
+      "ko": "명지대학교에서 받은 상과 장학금입니다."
+    }
   },
   "publications": [
     {
-      "tag": { "en": "JOURNAL ARTICLE · FIRST AUTHOR · 2026", "ko": "학술지 논문 · 제1저자 · 2026" },
+      "tag": {
+        "en": "JOURNAL ARTICLE · FIRST AUTHOR · 2026",
+        "ko": "학술지 논문 · 제1저자 · 2026"
+      },
       "title": {
         "en": "The Educational Meaning of \"Hard Fun\" Experienced by Adolescents in Science and Technology Activities: Focusing on Seymour Papert's Constructionism",
         "ko": "과학기술 체험활동에서 청소년이 경험한 ‘어려움의 재미(hard-fun)’의 교육적 의미: 시모어 패퍼트의 구성주의를 중심으로"
       },
-      "authors": { "en": "Lee, M., Kim, M., & Yoon, H.", "ko": "이민, 김무년, 윤형주" },
-      "me": { "en": "Lee, M.", "ko": "이민" },
+      "authors": {
+        "en": "Lee, M., Kim, M., & Yoon, H.",
+        "ko": "이민, 김무년, 윤형주"
+      },
+      "me": {
+        "en": "Lee, M.",
+        "ko": "이민"
+      },
       "year": "2026",
-      "journal": { "en": "Journal of Future Youth Studies", "ko": "미래청소년학회지" },
+      "journal": {
+        "en": "Journal of Future Youth Studies",
+        "ko": "미래청소년학회지"
+      },
       "volume": "23(2)",
       "pages": "139–158"
     }
   ],
   "research": [
     {
-      "period": { "en": "Oct 2025", "ko": "2025.10" },
-      "title": { "en": "Research Assistant", "ko": "연구과제 보조연구원" },
-      "org": { "en": "", "ko": "" },
-      "status": { "en": "", "ko": "" },
-      "description": { "en": "Assisted on a funded research project.", "ko": "연구과제 수행에 보조연구원으로 참여했습니다." },
-      "details": []
+      "period": {
+        "en": "Oct 2025",
+        "ko": "2025.10"
+      },
+      "title": {
+        "en": "Research Assistant",
+        "ko": "연구과제 보조연구원"
+      },
+      "description": {
+        "en": "Assisted on a funded research project.",
+        "ko": "연구과제 수행에 보조연구원으로 참여했습니다."
+      }
     },
     {
-      "period": { "en": "Sep 2025 – present", "ko": "2025.09 –" },
-      "title": { "en": "Sexual Scripts in School Sex Education", "ko": "학교 성교육이 재현하는 성각본 분석" },
-      "org": { "en": "Master's research plan", "ko": "석사 연구계획" },
-      "status": { "en": "In progress", "ko": "진행 중" },
+      "period": {
+        "en": "Sep 2025 – present",
+        "ko": "2025.09 –"
+      },
+      "title": {
+        "en": "Sexual Scripts in School Sex Education",
+        "ko": "학교 성교육이 재현하는 성각본 분석"
+      },
+      "org": {
+        "en": "Master's research plan",
+        "ko": "석사 연구계획"
+      },
+      "status": {
+        "en": "In progress",
+        "ko": "진행 중"
+      },
       "description": {
         "en": "Uses sexual script theory (Gagnon & Simon) to examine the gap between institutional sex-education discourse and young people's lived sexual culture, and to build a case for comprehensive sexuality education.",
         "ko": "제도적 성교육 담론과 청소년의 실제 성문화 경험 사이의 불일치를 성각본 이론(Gagnon & Simon)으로 분석하고, 포괄적 성교육으로의 전환 근거를 모색합니다."
-      },
-      "details": []
+      }
     }
   ],
   "experience": [
     {
-      "period": { "en": "Jul – Oct 2025", "ko": "2025.07 – 2025.10" },
-      "title": { "en": "Program Coordinator, Baeumteo Education Support Program", "ko": "배움터 교육지원사업 코디네이터" },
-      "org": { "en": "Samsung Dream Scholarship Foundation", "ko": "(재)삼성꿈장학재단" },
-      "status": { "en": "", "ko": "" },
-      "description": { "en": "", "ko": "" },
+      "period": {
+        "en": "Jul – Oct 2025",
+        "ko": "2025.07 – 2025.10"
+      },
+      "title": {
+        "en": "Program Coordinator, Baeumteo Education Support Program",
+        "ko": "배움터 교육지원사업 코디네이터"
+      },
+      "org": {
+        "en": "Samsung Dream Scholarship Foundation",
+        "ko": "(재)삼성꿈장학재단"
+      },
       "details": [
-        { "en": "Supported on-site consulting visits for the 2025 program", "ko": "2025 배움터 교육지원사업 현장방문컨설팅 진행 및 행정 지원" },
-        { "en": "Liaised between university faculty and local centers; managed schedules and documents", "ko": "대학 교수진과 지역 센터 간 소통, 방문 일정 및 서류 준비" }
+        {
+          "en": "Supported on-site consulting visits for the 2025 program",
+          "ko": "2025 배움터 교육지원사업 현장방문컨설팅 진행 및 행정 지원"
+        },
+        {
+          "en": "Liaised between university faculty and local centers; managed schedules and documents",
+          "ko": "대학 교수진과 지역 센터 간 소통, 방문 일정 및 서류 준비"
+        }
       ]
     },
     {
-      "period": { "en": "Mar 2023 – Jun 2025", "ko": "2023.03 – 2025.06" },
-      "title": { "en": "Department Assistant", "ko": "학과 조교" },
-      "org": { "en": "Dept. of Youth Leadership and Education, Myongji University", "ko": "명지대학교 청소년지도학과" },
-      "status": { "en": "", "ko": "" },
-      "description": { "en": "", "ko": "" },
+      "period": {
+        "en": "Mar 2023 – Jun 2025",
+        "ko": "2023.03 – 2025.06"
+      },
+      "title": {
+        "en": "Department Assistant",
+        "ko": "학과 조교"
+      },
+      "org": {
+        "en": "Dept. of Youth Leadership and Education, Myongji University",
+        "ko": "명지대학교 청소년지도학과"
+      },
       "details": [
-        { "en": "Supported faculty teaching and research; prepared course materials", "ko": "교수진의 강의·연구 업무 보조, 강의 자료 준비" },
-        { "en": "Drafted and managed department documents; handled student academic inquiries", "ko": "학과 문서 작성 및 관리, 학사 관련 안내 및 처리" }
+        {
+          "en": "Supported faculty teaching and research; prepared course materials",
+          "ko": "교수진의 강의·연구 업무 보조, 강의 자료 준비"
+        },
+        {
+          "en": "Drafted and managed department documents; handled student academic inquiries",
+          "ko": "학과 문서 작성 및 관리, 학사 관련 안내 및 처리"
+        }
       ]
     },
     {
-      "period": { "en": "Mar – Dec 2024", "ko": "2024.03 – 2024.12" },
-      "title": { "en": "Administrative Work-Study Student", "ko": "행정 근로장학생" },
-      "org": { "en": "Academic Affairs Office, College of Social Sciences, Myongji University", "ko": "명지대학교 사회과학대학 교학팀" },
-      "status": { "en": "", "ko": "" },
-      "description": { "en": "", "ko": "" },
+      "period": {
+        "en": "Mar – Dec 2024",
+        "ko": "2024.03 – 2024.12"
+      },
+      "title": {
+        "en": "Administrative Work-Study Student",
+        "ko": "행정 근로장학생"
+      },
+      "org": {
+        "en": "Academic Affairs Office, College of Social Sciences, Myongji University",
+        "ko": "명지대학교 사회과학대학 교학팀"
+      },
       "details": [
-        { "en": "Managed academic calendars and student records; processed official documents", "ko": "학사 일정 및 학적 관리, 공문서 처리" },
-        { "en": "Answered student inquiries about academic regulations", "ko": "학생 학사 민원 응대 및 관련 규정 안내" }
+        {
+          "en": "Managed academic calendars and student records; processed official documents",
+          "ko": "학사 일정 및 학적 관리, 공문서 처리"
+        },
+        {
+          "en": "Answered student inquiries about academic regulations",
+          "ko": "학생 학사 민원 응대 및 관련 규정 안내"
+        }
       ]
     },
     {
-      "period": { "en": "Sep 2022 – Feb 2023", "ko": "2022.09 – 2023.02" },
-      "title": { "en": "Administrative Work-Study Student", "ko": "행정 근로장학생" },
-      "org": { "en": "Graduate School Academic Affairs Office, Myongji University", "ko": "명지대학교 대학원 교학팀" },
-      "status": { "en": "", "ko": "" },
-      "description": { "en": "", "ko": "" },
+      "period": {
+        "en": "Sep 2022 – Feb 2023",
+        "ko": "2022.09 – 2023.02"
+      },
+      "title": {
+        "en": "Administrative Work-Study Student",
+        "ko": "행정 근로장학생"
+      },
+      "org": {
+        "en": "Graduate School Academic Affairs Office, Myongji University",
+        "ko": "명지대학교 대학원 교학팀"
+      },
       "details": [
-        { "en": "Handled student requests and supported daily administration", "ko": "학생 민원 처리 및 행정 실무 보조" },
-        { "en": "Assisted with enrollment changes and scholarship records", "ko": "학적 변동, 장학금 관리 업무 보조" }
+        {
+          "en": "Handled student requests and supported daily administration",
+          "ko": "학생 민원 처리 및 행정 실무 보조"
+        },
+        {
+          "en": "Assisted with enrollment changes and scholarship records",
+          "ko": "학적 변동, 장학금 관리 업무 보조"
+        }
       ]
     }
   ],
   "training": [
     {
-      "period": { "en": "Oct 11 – Nov 8, 2024", "ko": "2024.10.11 – 11.08" },
-      "title": { "en": "Youth Work Field Practicum II · 80 hrs", "ko": "청소년지도 현장실습 Ⅱ · 80시간" },
-      "org": { "en": "Seoul Metropolitan AHA! Youth Sexuality Culture Center", "ko": "서울시립아하!청소년성문화센터" },
-      "status": { "en": "", "ko": "" },
-      "description": { "en": "", "ko": "" },
-      "details": []
+      "period": {
+        "en": "Oct 11 – Nov 8, 2024",
+        "ko": "2024.10.11 – 11.08"
+      },
+      "title": {
+        "en": "Youth Work Field Practicum II · 80 hrs",
+        "ko": "청소년지도 현장실습 Ⅱ · 80시간"
+      },
+      "org": {
+        "en": "Seoul Metropolitan AHA! Youth Sexuality Culture Center",
+        "ko": "서울시립아하!청소년성문화센터"
+      }
     },
     {
-      "period": { "en": "Sep 6 – Oct 5, 2024", "ko": "2024.09.06 – 10.05" },
-      "title": { "en": "Youth Work Field Practicum I · 80 hrs", "ko": "청소년지도 현장실습 Ⅰ · 80시간" },
-      "org": { "en": "Seoul Metropolitan AHA! Youth Sexuality Culture Center", "ko": "서울시립아하!청소년성문화센터" },
-      "status": { "en": "", "ko": "" },
-      "description": { "en": "160 hours completed in total.", "ko": "총 160시간 현장실습 완료" },
-      "details": []
+      "period": {
+        "en": "Sep 6 – Oct 5, 2024",
+        "ko": "2024.09.06 – 10.05"
+      },
+      "title": {
+        "en": "Youth Work Field Practicum I · 80 hrs",
+        "ko": "청소년지도 현장실습 Ⅰ · 80시간"
+      },
+      "org": {
+        "en": "Seoul Metropolitan AHA! Youth Sexuality Culture Center",
+        "ko": "서울시립아하!청소년성문화센터"
+      },
+      "description": {
+        "en": "160 hours completed in total.",
+        "ko": "총 160시간 현장실습 완료"
+      }
     },
     {
-      "period": { "en": "Teaching areas", "ko": "강의 분야" },
-      "title": { "en": "Global Citizenship Education · Democratic Citizenship Education", "ko": "세계시민교육 · 민주시민교육" },
-      "org": { "en": "", "ko": "" },
-      "status": { "en": "", "ko": "" },
-      "description": { "en": "", "ko": "" },
-      "details": []
+      "period": {
+        "en": "Teaching areas",
+        "ko": "강의 분야"
+      },
+      "title": {
+        "en": "Global Citizenship Education · Democratic Citizenship Education",
+        "ko": "세계시민교육 · 민주시민교육"
+      }
     },
     {
-      "period": { "en": "Jun 2023 – Aug 2024", "ko": "2023.06 – 2024.08" },
-      "title": { "en": "President", "ko": "회장" },
-      "org": { "en": "Étoile Literary Criticism Club, Myongji University", "ko": "명지대학교 문학비평동아리 에뚜알" },
-      "status": { "en": "", "ko": "" },
-      "description": { "en": "", "ko": "" },
-      "details": []
+      "period": {
+        "en": "Jun 2023 – Aug 2024",
+        "ko": "2023.06 – 2024.08"
+      },
+      "title": {
+        "en": "President",
+        "ko": "회장"
+      },
+      "org": {
+        "en": "Étoile Literary Criticism Club, Myongji University",
+        "ko": "명지대학교 문학비평동아리 에뚜알"
+      }
     },
     {
-      "period": { "en": "Mar 2022 – Feb 2023", "ko": "2022.03 – 2023.02" },
-      "title": { "en": "Student Council Representative", "ko": "학생회 대표자" },
-      "org": { "en": "Bangmok College of Basic Studies, Myongji University", "ko": "명지대학교 방목기초교육대학 학생회" },
-      "status": { "en": "", "ko": "" },
-      "description": { "en": "", "ko": "" },
-      "details": []
+      "period": {
+        "en": "Mar 2022 – Feb 2023",
+        "ko": "2022.03 – 2023.02"
+      },
+      "title": {
+        "en": "Student Council Representative",
+        "ko": "학생회 대표자"
+      },
+      "org": {
+        "en": "Bangmok College of Basic Studies, Myongji University",
+        "ko": "명지대학교 방목기초교육대학 학생회"
+      }
     },
     {
-      "period": { "en": "2022 · 2023", "ko": "2022 · 2023" },
-      "title": { "en": "Staff Member, General Student Council", "ko": "총학생회 국원" },
-      "org": { "en": "Humanities Campus, Myongji University", "ko": "명지대학교 인문캠퍼스 총학생회" },
-      "status": { "en": "", "ko": "" },
-      "description": { "en": "Mar – Dec 2022, Sep – Dec 2023", "ko": "2022.03 – 12, 2023.09 – 12" },
-      "details": []
+      "period": {
+        "en": "2022 · 2023",
+        "ko": "2022 · 2023"
+      },
+      "title": {
+        "en": "Staff Member, General Student Council",
+        "ko": "총학생회 국원"
+      },
+      "org": {
+        "en": "Humanities Campus, Myongji University",
+        "ko": "명지대학교 인문캠퍼스 총학생회"
+      },
+      "description": {
+        "en": "Mar – Dec 2022, Sep – Dec 2023",
+        "ko": "2022.03 – 12, 2023.09 – 12"
+      }
     }
   ],
   "education": [
     {
-      "period": { "en": "Sep 2025 – present", "ko": "2025.09 –" },
-      "title": { "en": "M.A., Youth Leadership and Education", "ko": "청소년지도학 석사과정" },
-      "org": { "en": "Graduate School, Myongji University", "ko": "명지대학교 대학원 청소년지도학과" },
-      "status": { "en": "Enrolled", "ko": "재학 중" },
-      "description": { "en": "", "ko": "" },
-      "details": []
+      "period": {
+        "en": "Sep 2025 – present",
+        "ko": "2025.09 –"
+      },
+      "title": {
+        "en": "M.A., Youth Leadership and Education",
+        "ko": "청소년지도학 석사과정"
+      },
+      "org": {
+        "en": "Graduate School, Myongji University",
+        "ko": "명지대학교 대학원 청소년지도학과"
+      },
+      "status": {
+        "en": "Enrolled",
+        "ko": "재학 중"
+      }
     },
     {
-      "period": { "en": "Mar 2022 – Aug 2025", "ko": "2022.03 – 2025.08" },
-      "title": { "en": "B.A., Youth Leadership and Education", "ko": "청소년지도학 학사" },
-      "org": { "en": "College of Media & Human Life, Myongji University", "ko": "명지대학교 미디어휴먼라이프대학 청소년지도학과" },
-      "status": { "en": "", "ko": "" },
-      "description": { "en": "Graduated in 7 semesters.", "ko": "7학기 졸업" },
-      "details": []
+      "period": {
+        "en": "Mar 2022 – Aug 2025",
+        "ko": "2022.03 – 2025.08"
+      },
+      "title": {
+        "en": "B.A., Youth Leadership and Education",
+        "ko": "청소년지도학 학사"
+      },
+      "org": {
+        "en": "College of Media & Human Life, Myongji University",
+        "ko": "명지대학교 미디어휴먼라이프대학 청소년지도학과"
+      },
+      "description": {
+        "en": "Graduated in 7 semesters.",
+        "ko": "7학기 졸업"
+      }
     },
     {
-      "period": { "en": "Mar 2019 – Feb 2022", "ko": "2019.03 – 2022.02" },
-      "title": { "en": "High School Diploma", "ko": "졸업" },
-      "org": { "en": "Sanbon High School", "ko": "산본고등학교" },
-      "status": { "en": "", "ko": "" },
-      "description": { "en": "", "ko": "" },
-      "details": []
+      "period": {
+        "en": "Mar 2019 – Feb 2022",
+        "ko": "2019.03 – 2022.02"
+      },
+      "title": {
+        "en": "High School Diploma",
+        "ko": "졸업"
+      },
+      "org": {
+        "en": "Sanbon High School",
+        "ko": "산본고등학교"
+      }
     }
   ],
   "honors": [
-    { "period": { "en": "Sep 2025", "ko": "2025.09" }, "title": { "en": "Academic Excellence Award", "ko": "성적우수상" }, "org": { "en": "", "ko": "" }, "status": { "en": "", "ko": "" }, "description": { "en": "", "ko": "" }, "details": [] },
-    { "period": { "en": "Spring 2024", "ko": "2024-1학기" }, "title": { "en": "President's Special Scholarship", "ko": "총장특별장학금" }, "org": { "en": "", "ko": "" }, "status": { "en": "", "ko": "" }, "description": { "en": "", "ko": "" }, "details": [] },
-    { "period": { "en": "Spring 2024", "ko": "2024-1학기" }, "title": { "en": "Training Scholarship", "ko": "연수장학금" }, "org": { "en": "", "ko": "" }, "status": { "en": "", "ko": "" }, "description": { "en": "", "ko": "" }, "details": [] },
-    { "period": { "en": "Fall 2023", "ko": "2023-2학기" }, "title": { "en": "Globalization Scholarship", "ko": "세계화장학금" }, "org": { "en": "", "ko": "" }, "status": { "en": "", "ko": "" }, "description": { "en": "", "ko": "" }, "details": [] },
-    { "period": { "en": "Fall 2022", "ko": "2022-2학기" }, "title": { "en": "Student Self-Government Scholarship", "ko": "자치활동장학금" }, "org": { "en": "", "ko": "" }, "status": { "en": "", "ko": "" }, "description": { "en": "", "ko": "" }, "details": [] },
-    { "period": { "en": "2022 – 2024", "ko": "2022 – 2024" }, "title": { "en": "Exemplary Student Scholarship", "ko": "모범장학금" }, "org": { "en": "", "ko": "" }, "status": { "en": "", "ko": "" }, "description": { "en": "4 semesters: Fall 2022, Spring 2023, Spring & Fall 2024", "ko": "4회: 2022-2, 2023-1, 2024-1, 2024-2학기" }, "details": [] },
-    { "period": { "en": "2023 – 2025", "ko": "2023 – 2025" }, "title": { "en": "Career Launch Support Scholarship", "ko": "사회진출지원장학금" }, "org": { "en": "", "ko": "" }, "status": { "en": "", "ko": "" }, "description": { "en": "5 semesters: Spring 2023 – Spring 2025", "ko": "5회: 2023-1학기 – 2025-1학기" }, "details": [] }
+    {
+      "period": {
+        "en": "Sep 2025",
+        "ko": "2025.09"
+      },
+      "title": {
+        "en": "Academic Excellence Award",
+        "ko": "성적우수상"
+      }
+    },
+    {
+      "period": {
+        "en": "Spring 2024",
+        "ko": "2024-1학기"
+      },
+      "title": {
+        "en": "President's Special Scholarship",
+        "ko": "총장특별장학금"
+      }
+    },
+    {
+      "period": {
+        "en": "Spring 2024",
+        "ko": "2024-1학기"
+      },
+      "title": {
+        "en": "Training Scholarship",
+        "ko": "연수장학금"
+      }
+    },
+    {
+      "period": {
+        "en": "Fall 2023",
+        "ko": "2023-2학기"
+      },
+      "title": {
+        "en": "Globalization Scholarship",
+        "ko": "세계화장학금"
+      }
+    },
+    {
+      "period": {
+        "en": "Fall 2022",
+        "ko": "2022-2학기"
+      },
+      "title": {
+        "en": "Student Self-Government Scholarship",
+        "ko": "자치활동장학금"
+      }
+    },
+    {
+      "period": {
+        "en": "2022 – 2024",
+        "ko": "2022 – 2024"
+      },
+      "title": {
+        "en": "Exemplary Student Scholarship",
+        "ko": "모범장학금"
+      },
+      "description": {
+        "en": "4 semesters: Fall 2022, Spring 2023, Spring & Fall 2024",
+        "ko": "4회: 2022-2, 2023-1, 2024-1, 2024-2학기"
+      }
+    },
+    {
+      "period": {
+        "en": "2023 – 2025",
+        "ko": "2023 – 2025"
+      },
+      "title": {
+        "en": "Career Launch Support Scholarship",
+        "ko": "사회진출지원장학금"
+      },
+      "description": {
+        "en": "5 semesters: Spring 2023 – Spring 2025",
+        "ko": "5회: 2023-1학기 – 2025-1학기"
+      }
+    }
   ]
 }
